@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: lightskyblue;
+}
+.container-header{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col-header1{
+    background-color: orange;
+    border: 1px dashed black;
+    width: 25%;
+    padding-left: 5px;
+}
+.col-header2{
+    background-color: orange;
+    border: 1px dashed black;
+    width: 50%;
+    text-align: center;
+}
+.col-header3{
+    background-color: orange;
+    border: 1px dashed black;
+    width: 25%;
+    text-align: right;
+    padding-right: 5px;
+}
