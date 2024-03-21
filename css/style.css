@@ -7,9 +7,9 @@
 header{
     background-color: lightskyblue;
 }
-.container-header{
+.container{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 0 auto;
     padding: 10px;
 }
 .row{
@@ -35,4 +35,55 @@ header{
     width: 25%;
     text-align: right;
     padding-right: 5px;
+}
+
+.container-main1{
+    background-color:rgb(1, 1, 85);
+    padding: 10px;
+    
+}
+.col-main1{
+   height: 250px;
+   max-width: 600px;
+   background-color: fuchsia;
+   border: 1px dashed black;
+   margin: 0 auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
+}
+.container-main2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.col-main2{
+    width: 60%;
+    height: 350px;
+    background-color: rgb(10, 77, 179);
+    border: 1px dashed black;
+}
+.col-main3{
+    width: 40%;
+    height: 350px;
+    background-color: rgb(223, 145, 184);
+    border: 1px dashed black;
+}
+.bg-gray{
+    background-color: rgb(134, 126, 126);
+}
+.container-main3{
+    max-width: 1200px;
+    height: 500px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px dashed black;
+    margin: 0 auto;
+}
+.bg-black{
+    background-color: black;
 }
